@@ -22,11 +22,10 @@ dependencies:
 # The runtime for Blackfire.
 runtime:
     extensions:
-        -
-            name: "blackfire"
-            configuration:
-                server_id: "151c41ac-d7b9-4e68-bbb3-4cf24641c41a"
-                server_token: "3e1622998102b7e215983db9a8804bca214d350b2c37287c2a10789442adac14"
+        - name: blackfire
+          configuration:
+              server_id: '151c41ac-d7b9-4e68-bbb3-4cf24641c41a'
+              server_token: '3e1622998102b7e215983db9a8804bca214d350b2c37287c2a10789442adac14'
 
 # The relationships of the application with services or other applications.
 #
