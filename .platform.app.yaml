@@ -7,7 +7,7 @@
 name: 'php'
 
 # The runtime the application uses.
-type: 'php:7.0'
+type: 'hhvm:3.12'
 
 # Configuration of the build of this application.
 build:
